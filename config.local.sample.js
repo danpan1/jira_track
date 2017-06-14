@@ -1,7 +1,7 @@
 module.exports = {
     jira: {
-        "userName": "ENTER JIRA USER",
-        "password": "ENTER JIRA PASSWORD"
+        "userName": "danpan",
+        "password": "/7q[#DG{pxE83mDq;M"
     },
     /*
     //optional if you use smpt writer

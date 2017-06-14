@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "setup:local-config": "node index.js --cmd=setup-local-config",
-    "test": "./node_modules/.bin/mocha --reporter spec",
+    "test": "node index.js --cmd=today",
     "generate:yesterday": "node index.js --cmd=yesterday",
     "generate:previous-week": "node index.js --cmd=prevWeek",
     "generate:today": "node index.js --cmd=today",

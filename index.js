@@ -63,9 +63,10 @@ function reportWeek() {
 }
 
 function reportPrevWeek() {
-    reportForDuration(
-        moment().startOf('isoWeek').subtract(1, 'w'),
-        moment().endOf('isoWeek').subtract(1, 'w'),
+  console.log(moment([2017, 2, 1]).startOf('month'));
+  reportForDuration(
+        moment([2017, 3, 1]).startOf('month'),
+        moment([2017, 3, 28]).endOf('month'),
         'prev. week'
     );
 }
